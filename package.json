@@ -1,0 +1,14 @@
+{
+  "name": "broadcast-server",
+  "version": "1.0.0",
+  "description": "Broadcast server using Node.js and WebSockets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "kjamrit",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.13.0"
+  }
+}
