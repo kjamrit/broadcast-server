@@ -8,11 +8,11 @@ This project demonstrates real-time communication between multiple clients via a
 
 ## Features
 
-✅ Broadcast messages from any client to all other connected clients  
-✅ Multiple clients supported simultaneously  
-✅ Simple CLI interface for server and client  
-✅ Graceful shutdown of server  
-✅ Lightweight and easy to run
+- Broadcast messages from any client to all other connected clients  
+- Multiple clients supported simultaneously  
+- Simple CLI interface for server and client  
+- Graceful shutdown of server  
+- Lightweight and easy to run
 
 ---
 
