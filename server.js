@@ -25,3 +25,11 @@ wss.on('connection', (ws) => {
         clients.delete(ws);
     });
 });
+
+process.on('SIGINT', () => {
+    console.log('\n🛑 Shutting down server...');
+    wss.close(() => {
+        console.log('✅ Server closed');
+        process.exit(0);
+    });
+});
