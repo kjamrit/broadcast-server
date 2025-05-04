@@ -15,7 +15,7 @@ ws.on('open', () => {
 });
 
 ws.on('message', (msg) => {
-    console.log(` Broadcast: ${msg}`);
+    console.log(`📢 Broadcast: ${msg}`);
 });
 
 ws.on('close', () => {
