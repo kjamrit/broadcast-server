@@ -2,7 +2,7 @@
 
 A simple CLI-based broadcast server and client using Node.js and WebSockets.
 
-This project demonstrates real-time communication between multiple clients via a central WebSocket server. Messages sent by one client are broadcast to all connected clients.
+This project demonstrates real-time communication between multiple clients via a central WebSocket server. Messages sent by one client are broadcasted to all connected clients.
 
 ---
 
@@ -21,7 +21,7 @@ This project demonstrates real-time communication between multiple clients via a
 Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/broadcast-server.git
+git clone https://github.com/kjamrit/broadcast-server.git
 cd broadcast-server
 ```
 Install dependencies:
@@ -53,6 +53,12 @@ Repeat "npm run connect" in new terminals to simulate multiple clients.
 ## Stopping the Server
 
 Press Ctrl+C → server will shut down gracefully and close all client connections.
+
+
+## TechStack used
+
+- Node.js
+- WebSockets
 
 
 
